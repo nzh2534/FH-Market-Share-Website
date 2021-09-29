@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>FH Market Share</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="banner" id="sec">
+		<header>
+			<a href='index.html' class="logo">FH Market Share</a>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+	</section>
+	<div id="navigation">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="usg.html">USG Market Share</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		function toggle(){
+			var sec = document.getElementById('sec');
+			var nav = document.getElementById('navigation');
+			sec.classList.toggle('active');
+			nav.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
