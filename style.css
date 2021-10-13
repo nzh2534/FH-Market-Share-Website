@@ -73,6 +73,9 @@ header #toggle:after{
 .banner.active{
 	transform: translateX(-400px);
 }
+.banner a{
+	margin:auto;
+}
 .banner2.active header #toggle:before{
 	top: 50%;
 	left: 50%;
@@ -193,6 +196,10 @@ header #toggle:after{
 	max-width: 20px;
 	filter: invert(1);
 	mix-blend-mode: difference;
+}
+#chart1{
+	background: black; 
+	box-shadow: 10px 10px 20px 20px rgba(0,0,0,0.80), 0 6px 6px rgba(0,0,0,0.80);
 }
 @media (max-width: 767px){
 	header{
